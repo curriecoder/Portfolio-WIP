@@ -1,10 +1,23 @@
 /* :root {
     --background-color: grey
-
 } */
 
 * {
     background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
+    }
+
+header {
+    background-color: indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
 }
