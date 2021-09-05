@@ -65,30 +65,73 @@ nav ul {
 
 .work-section {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-content: center;
     align-items: center;
 }
 
 .horiseon-refactor {
+    position: relative;
+    display: block;
     width: 100%;
 }
 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.horiseon-refactor:hover .overlay {
+    opacity: 1;
+}
+
 .cat-and-mouse {
+    position: relative;
+    display: block;
     width: 50%;
+}
+
+.cat-and-mouse:hover .overlay {
+    opacity: 1;
 }
 
 .fillmurray1 {
+    position: relative;
+    display: block;
     width: 50%;
+}
+
+.fillmurray1:hover .overlay {
+    opacity: 1;
 }
 
 .fillmurray2 {
+    position: relative;
+    display: block;
     width: 50%;
 }
 
+.fillmurray2:hover .overlay  {
+    opacity: 1;
+}
+
 .fillmurray3 {
+    position: relative;
+    display: block;
     width: 50%;
+}
+
+.fillmurray3:hover .overlay  {
+    opacity: 1;
 }
 
 .contact-me {
