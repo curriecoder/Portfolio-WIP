@@ -15,7 +15,8 @@ header {
     font-size: 150%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
+    height: 250px;
 }
 
 .header {
@@ -27,13 +28,8 @@ header {
 
 header h1{
     background-color: gray;
-    padding: 5px;
-}
-
-h1::before {
-    content: "Logo";
-    color: red;
-    margin: 5px;
+    padding: 10px;
+    margin-left: 252px;
 }
 
 header a {
@@ -51,7 +47,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 400px;
-    margin: 25px;
+    margin: 10px;
 }
 
 #about-me, #work, #contact-me {
@@ -59,7 +55,7 @@ nav ul {
     display: inline;
     color: white;
 }
-
+/* TODO break out 'about me' text to limit width */
 .contact-me {
     display: flex;
     justify-content: space-evenly;
@@ -69,4 +65,13 @@ nav ul {
 
 .contact-me a {
     color: white;
+}
+
+.avatar {
+    background-image: url(../images/The\ Mask.png);
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
 }
