@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
 }
 
 header {
@@ -15,29 +16,15 @@ header {
     align-items: center;
 }
 
-header a, .contact-me a {
-    color: black;
-}
-
 .header {
-    display: inline-flex;
-    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header h1{
+    background-color: gray;
     padding: 5px;
-    background-color: rgb(129, 8, 8);
-    font-size: 42px;
-}
-
-#about-me {
-    display: inline-flex;
-}
-
-#work {
-    display: inline-flex;
-    align-items: flex-start;
-}
-
-#contact-me {
-    display: inline-flex;
 }
 
 h1::before {
@@ -46,28 +33,29 @@ h1::before {
     margin: 5px;
 }
 
-body {
-    background-color: #F7C1AD;
+header a, .contact-me a {
+    color: grey;
+    background-color: aquamarine ;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;    
-    padding: 20px;
+.nav {
+    background-color: aquamarine;
 }
 
 nav ul {
-    color: black;
+    color: grey;
+    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     min-width: 500px;
     margin: 25px;
 }
 
+#about-me, #work, #contact-me {
+    text-align: center;
+}
+
 .contact-me {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
 }
