@@ -55,7 +55,16 @@ nav ul {
     display: inline;
     color: white;
 }
-/* TODO break out 'about me' text to limit width */
+
+.about-me-section {
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: initial;
+}
+
+.work-section {
+}
+
 .contact-me {
     display: flex;
     justify-content: space-evenly;
