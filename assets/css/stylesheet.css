@@ -1,5 +1,7 @@
 /* :root {
-    --background-color: grey
+    --background-color: grey;
+    --font-color: ;
+    --header-font-color: ;
 } */
 
 * {
@@ -20,6 +22,8 @@ header {
     color: white;
     font-weight: bold;
     font-size: 24px;
+    padding: 25px;
+    display: inline-flex;
 }
 
 header h1{
@@ -33,7 +37,7 @@ h1::before {
     margin: 5px;
 }
 
-header a, .contact-me a {
+header a {
     color: grey;
     background-color: aquamarine ;
 }
@@ -53,9 +57,16 @@ nav ul {
 
 #about-me, #work, #contact-me {
     text-align: center;
+    display: inline;
 }
 
 .contact-me {
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.contact-me a {
+    color: black;
 }
