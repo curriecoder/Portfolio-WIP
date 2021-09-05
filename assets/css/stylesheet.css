@@ -19,7 +19,6 @@ header {
 }
 
 .header {
-    color: white;
     font-weight: bold;
     font-size: 24px;
     padding: 25px;
@@ -51,22 +50,23 @@ nav ul {
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    min-width: 500px;
+    min-width: 400px;
     margin: 25px;
 }
 
 #about-me, #work, #contact-me {
     text-align: center;
     display: inline;
+    color: white;
 }
 
 .contact-me {
     display: flex;
     justify-content: space-evenly;
-    padding: 5px;
+    padding-bottom: 30px;
     text-decoration: underline;
 }
 
 .contact-me a {
-    color: black;
+    color: white;
 }
