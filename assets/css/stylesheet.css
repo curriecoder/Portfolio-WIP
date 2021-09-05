@@ -39,6 +39,7 @@ header a {
 
 .nav {
     background-color: aquamarine;
+    padding-right: 25px;
 }
 
 nav ul {
@@ -63,6 +64,31 @@ nav ul {
 }
 
 .work-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.horiseon-refactor {
+    width: 100%;
+}
+
+.cat-and-mouse {
+    width: 50%;
+}
+
+.fillmurray1 {
+    width: 50%;
+}
+
+.fillmurray2 {
+    width: 50%;
+}
+
+.fillmurray3 {
+    width: 50%;
 }
 
 .contact-me {
